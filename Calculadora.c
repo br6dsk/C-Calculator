@@ -24,7 +24,7 @@ int main(){
 		printf("Digite o c%clculo: ", a);
 		
 		scanf("%f", &n1);
-		scanf("%c", &operador);
+		scanf(" %c", &operador);
 		scanf("%f", &n2);
 
 
@@ -51,12 +51,15 @@ int main(){
 			case'/':
 			if(n2==0){
 				printf("indertemina%c%co\n", c, aa);
+				
 			}else{
 				printf("%.2f\n", n1/n2);
+				
 			}
+			break;
 
 			default:
-			if(n1!=0 && operador!=0 && n2!=0){
+			if(n1!=0 && operador!='+', '-', '/', '*' && n2!=0){
 				printf("Operador inv%clido\n", a);
 			}
 			else{
