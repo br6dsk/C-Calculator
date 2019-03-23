@@ -19,6 +19,7 @@ int main(){
 
 		printf("\n");
 		printf("[Tutorial] Use de exemplo: 8+8 e 7-1.\n");
+		printf("[Tutorial] Use de 0 0 0 para fechar.\n");
 
 		printf("Digite o c%clculo: ", a);
 		
