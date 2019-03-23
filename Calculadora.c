@@ -67,4 +67,5 @@ int main(){
 
 
 	}while(n1!=0 && operador!=0 && n2!=0);
+	return 0;
 }
