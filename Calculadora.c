@@ -59,7 +59,7 @@ int main(){
 			break;
 
 			default:
-			if(n1!=0 && operador!='+', '-', '/', '*' && n2!=0){
+			if(operador!='+', '-', '/', '*'){
 				printf("Operador inv%clido\n", a);
 			}
 			else{
@@ -70,6 +70,6 @@ int main(){
 
 
 
-	}while(n1!=0 && operador!=0 && n2!=0);
+	}while(n1!=6 && operador!=6 && n2!=6);
 	return 0;
 }
