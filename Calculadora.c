@@ -44,18 +44,19 @@ int main(){
 			break;
 
 			case'/':
-			if(n2==0)
-
-				printf("Inderterminacao\n");
-			else
+			if(n2==0){
+				printf("inderteminacao\n");
+			}else{
 				printf("%.2f\n", n1/n2);
-			break;
+			}
 
 			default:
-			if(n1!=0 && operador!=0 && n2!=0)
+			if(n1!=0 && operador!=0 && n2!=0){
 				printf("Operador invalido\n");
-			else
+			}
+			else{
 				printf("Fechando...\n");
+			}
 			
 		}
 
