@@ -3,7 +3,7 @@
 
 int main(){
 
-	int n1,n2;
+	float n1,n2;
 	char operador;
 
 	do{
@@ -20,27 +20,35 @@ int main(){
 
 		printf("Digite o calculo: ");
 		
-		scanf("%d", &n1);
+		scanf("%f", &n1);
 		scanf(" %c", &operador);
-		scanf("%d", &n2);
+		scanf("%f", &n2);
 
 
 		system("cls");
 
-		printf("Calculado: %d %c %d = ", n1,operador,n2);
+		printf("Calculado: %.2f %c %.2f = ", n1,operador,n2);
 
 		switch(operador){
 
 			case'+':
-			printf("%d\n", n1+n2);
+			printf("%.2f\n", n1+n2);
 			break;
 
 			case'-':
-			printf("%d\n", n1-n2);
+			printf("%.2f\n", n1-n2);
 			break;
 
 			case'*':
-			printf("%d\n", n1*n2);
+			printf("%.2f\n", n1*n2);
+			break;
+
+			case'/':
+			if(n2==0)
+
+				printf("Inderterminacao\n");
+			else
+				printf("%.2f\n", n1/n2);
 			break;
 
 			default:
