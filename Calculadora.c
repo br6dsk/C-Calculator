@@ -23,7 +23,7 @@ int main(){
 		printf("Digite o c%clculo: ", a);
 		
 		scanf("%f", &n1);
-		scanf(" %c", &operador);
+		scanf("%c", &operador);
 		scanf("%f", &n2);
 
 
