@@ -19,7 +19,7 @@ int main(){
 
 		printf("\n");
 		printf("[Tutorial] Use de exemplo: 8+8 e 7-1.\n");
-		printf("[Tutorial] Use de 6 6 6 para fechar.\n");
+		printf("[Tutorial] Use de 0 0 0 para fechar.\n");
 
 		printf("Digite o c%clculo: ", a);
 		
@@ -70,6 +70,6 @@ int main(){
 
 
 
-	}while(n1!=6 && operador!=6 && n2!=6);
+	}while(n1!=0 && operador!=0 && n2!=0);
 	return 0;
 }
