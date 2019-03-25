@@ -1,3 +1,5 @@
+//Author: Braian D. Jesus
+
 #include <stdio.h>
 #include <stdlib.h>
 
