@@ -1,4 +1,4 @@
-//Author: Braian D. Jesus
+//Author: brndsk
 
 #include <stdio.h>
 #include <stdlib.h>
